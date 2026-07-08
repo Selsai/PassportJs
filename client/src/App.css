@@ -600,7 +600,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{
   height: 55px;
   border: none;
   border-radius: 50%;
-  background: #2563EB;
+  background: var(--cyan);
   color: #fff;
   font-size: 20px;
   cursor: pointer;
@@ -611,7 +611,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{
 
 .audioBtn:hover {
   transform: translateY(-4px) scale(1.05);
-  background: #1D4ED8;
+  background: var(--primary);
 }
 
 .audioBtn:active {
