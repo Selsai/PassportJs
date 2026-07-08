@@ -588,3 +588,41 @@ a:focus-visible,button:focus-visible,input:focus-visible{
 .deletedActions{flex-direction:column;}
 .deletedActions a{width:100%;}
 }
+/* ===========================
+   AUDIO BUTTON
+=========================== */
+
+.audioBtn {
+  position: fixed;
+  right: 30px;
+  bottom: 100px;
+  width: 55px;
+  height: 55px;
+  border: none;
+  border-radius: 50%;
+  background: #2563EB;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0,0,0,.25);
+  transition: .3s;
+  z-index: 999;
+}
+
+.audioBtn:hover {
+  transform: translateY(-4px) scale(1.05);
+  background: #1D4ED8;
+}
+
+.audioBtn:active {
+  transform: scale(.95);
+}
+
+@media (max-width:650px){
+
+.audioBtn{
+right:20px;
+bottom:90px;
+}
+
+}
